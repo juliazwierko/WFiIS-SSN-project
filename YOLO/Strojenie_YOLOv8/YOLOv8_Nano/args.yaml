@@ -10,7 +10,7 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: null
+device: '0'
 workers: 8
 project: Strojenie_YOLOv8
 name: YOLOv8_Nano
@@ -107,4 +107,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /content/runs/detect/Strojenie_YOLOv8/YOLOv8_Nano
+save_dir: /kaggle/working/runs/detect/Strojenie_YOLOv8/YOLOv8_Nano
