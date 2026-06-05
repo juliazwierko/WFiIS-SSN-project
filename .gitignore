@@ -1,1 +1,27 @@
+# Dataset (downloaded by scripts/download_dataset.py)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Training artifacts
+runs/
+checkpoints/
+models/
+*.pt
+*.pth
+*.safetensors
+wandb/
+
+# OS / editor
 .DS_Store
+.idea/
+.vscode/

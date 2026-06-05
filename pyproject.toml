@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wfiis-ssn-project"
+version = "0.1.0"
+description = "Object detection model comparison on the Colorful Fashion dataset (AGH WFiIS SSN course)."
+requires-python = ">=3.10"
+dependencies = [
+    "kagglehub>=0.3.0",
+    # Training stack. torch + torchvision install as CPU wheels by default;
+    # for CUDA, install torch separately first from pytorch.org with the
+    # right --index-url, then `pip install -e .` to fill in the rest.
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "transformers>=4.50",
+    "pycocotools>=2.0.7",
+    "pillow>=10.0",
+    "albumentations>=1.4",
+    "numpy>=1.26",
+    "matplotlib>=3.7",
+    "rfdetr[train,loggers]>=1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dataset*", "RFDetr*"]
+exclude = ["data*", "models*", "scripts*"]
