@@ -1,0 +1,45 @@
+================================================================
+  resnet34  |  optim=sgd  lr=1e-03  sched=step  aug=False  bs=4
+================================================================
+  Ep  1/30 | train: 0.7718 | val: 0.5957 saved
+  Ep  2/30 | train: 0.5925 | val: 0.5804 saved
+  Ep  3/30 | train: 0.5580 | val: 0.5259 saved
+  Ep  4/30 | train: 0.5295 | val: 0.5402  (patience 1/5)
+  Ep  5/30 | train: 0.5082 | val: 0.5383  (patience 2/5)
+  Ep  6/30 | train: 0.4903 | val: 0.5207 saved
+  Ep  7/30 | train: 0.4681 | val: 0.5279  (patience 1/5)
+  Ep  8/30 | train: 0.4471 | val: 0.5257  (patience 2/5)
+  Ep  9/30 | train: 0.4263 | val: 0.5393  (patience 3/5)
+  Ep 10/30 | train: 0.4073 | val: 0.5288  (patience 4/5)
+  Ep 11/30 | train: 0.3528 | val: 0.5049 saved
+  Ep 12/30 | train: 0.3407 | val: 0.5068  (patience 1/5)
+  Ep 13/30 | train: 0.3353 | val: 0.5085  (patience 2/5)
+  Ep 14/30 | train: 0.3308 | val: 0.5107  (patience 3/5)
+  Ep 15/30 | train: 0.3264 | val: 0.5147  (patience 4/5)
+  Ep 16/30 | train: 0.3223 | val: 0.5176  (patience 5/5)
+  Early stopping po epoce 16
+
+ mAP@50=0.7870  mAP@50-95=0.4219  Recall=0.5390
+
+================================================================
+  resnet18  |  optim=sgd  lr=1e-03  sched=step  aug=False  bs=4
+================================================================
+  Ep  1/30 | train: 0.7802 | val: 0.6808 saved
+  Ep  2/30 | train: 0.6351 | val: 0.5965 saved
+  Ep  3/30 | train: 0.5910 | val: 0.6000  (patience 1/5)
+  Ep  4/30 | train: 0.5619 | val: 0.5671 saved
+  Ep  5/30 | train: 0.5345 | val: 0.5709  (patience 1/5)
+  Ep  6/30 | train: 0.5212 | val: 0.5433 saved
+  Ep  7/30 | train: 0.4958 | val: 0.5631  (patience 1/5)
+  Ep  8/30 | train: 0.4761 | val: 0.5531  (patience 2/5)
+  Ep  9/30 | train: 0.4585 | val: 0.5397 saved
+  Ep 10/30 | train: 0.4387 | val: 0.5695  (patience 1/5)
+  Ep 11/30 | train: 0.3838 | val: 0.5356 saved
+  Ep 12/30 | train: 0.3722 | val: 0.5369  (patience 1/5)
+  Ep 13/30 | train: 0.3650 | val: 0.5411  (patience 2/5)
+  Ep 14/30 | train: 0.3589 | val: 0.5411  (patience 3/5)
+  Ep 15/30 | train: 0.3551 | val: 0.5388  (patience 4/5)
+  Ep 16/30 | train: 0.3495 | val: 0.5432  (patience 5/5)
+  Early stopping po epoce 16
+
+ mAP@50=0.7485  mAP@50-95=0.3844  Recall=0.5147

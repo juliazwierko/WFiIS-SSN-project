@@ -1,0 +1,146 @@
+================================================================
+  baseline-adam  |  optim=adam  lr=1e-04  sched=step  aug=True  bs=4
+================================================================
+  Ep  1/30 | train: 0.6407 | val: 0.4945 saved
+  Ep  2/30 | train: 0.4850 | val: 0.4824 saved
+  Ep  3/30 | train: 0.4442 | val: 0.4601 saved
+  Ep  4/30 | train: 0.4133 | val: 0.4333 saved
+  Ep  5/30 | train: 0.3881 | val: 0.4517  (patience 1/5)
+  Ep  6/30 | train: 0.3721 | val: 0.4597  (patience 2/5)
+  Ep  7/30 | train: 0.3448 | val: 0.4452  (patience 3/5)
+  Ep  8/30 | train: 0.3281 | val: 0.4627  (patience 4/5)
+  Ep  9/30 | train: 0.3111 | val: 0.4699  (patience 5/5)
+  Early stopping po epoce 9
+
+ mAP@50=0.7904  mAP@50-95=0.4527  Recall=0.5969
+
+================================================================
+  adamw  |  optim=adamw  lr=1e-04  sched=step  aug=True  bs=4
+================================================================
+  Ep  1/30 | train: 0.6185 | val: 0.5412 saved
+  Ep  2/30 | train: 0.4850 | val: 0.4928 saved
+  Ep  3/30 | train: 0.4498 | val: 0.4736 saved
+  Ep  4/30 | train: 0.4300 | val: 0.4511 saved
+  Ep  5/30 | train: 0.3981 | val: 0.4376 saved
+  Ep  6/30 | train: 0.3636 | val: 0.4525  (patience 1/5)
+  Ep  7/30 | train: 0.3412 | val: 0.4573  (patience 2/5)
+  Ep  8/30 | train: 0.3311 | val: 0.4838  (patience 3/5)
+  Ep  9/30 | train: 0.3152 | val: 0.4706  (patience 4/5)
+  Ep 10/30 | train: 0.2902 | val: 0.4965  (patience 5/5)
+  Early stopping po epoce 10
+
+ mAP@50=0.8004  mAP@50-95=0.4486  Recall=0.5862
+
+================================================================
+  lr-low  |  optim=adamw  lr=1e-05  sched=step  aug=True  bs=4
+================================================================
+  Ep  1/30 | train: 0.8022 | val: 0.5997 saved
+  Ep  2/30 | train: 0.5554 | val: 0.5194 saved
+  Ep  3/30 | train: 0.4994 | val: 0.5109 saved
+  Ep  4/30 | train: 0.4738 | val: 0.4978 saved
+  Ep  5/30 | train: 0.4419 | val: 0.4749 saved
+  Ep  6/30 | train: 0.4182 | val: 0.4723 saved
+  Ep  7/30 | train: 0.3950 | val: 0.4657 saved
+  Ep  8/30 | train: 0.3744 | val: 0.4724  (patience 1/5)
+  Ep  9/30 | train: 0.3518 | val: 0.4623 saved
+  Ep 10/30 | train: 0.3319 | val: 0.4822  (patience 1/5)
+  Ep 11/30 | train: 0.3029 | val: 0.4699  (patience 2/5)
+  Ep 12/30 | train: 0.2929 | val: 0.4722  (patience 3/5)
+  Ep 13/30 | train: 0.2897 | val: 0.4692  (patience 4/5)
+  Ep 14/30 | train: 0.2847 | val: 0.4784  (patience 5/5)
+  Early stopping po epoce 14
+
+ mAP@50=0.8194  mAP@50-95=0.4662  Recall=0.5833
+
+================================================================
+  sgd  |  optim=sgd  lr=1e-03  sched=step  aug=True  bs=4
+================================================================
+  Ep  1/30 | train: 0.7705 | val: 0.5574 saved
+  Ep  2/30 | train: 0.5395 | val: 0.5129 saved
+  Ep  3/30 | train: 0.4897 | val: 0.4823 saved
+  Ep  4/30 | train: 0.4611 | val: 0.4721 saved
+  Ep  5/30 | train: 0.4376 | val: 0.4612 saved
+  Ep  6/30 | train: 0.4199 | val: 0.4567 saved
+  Ep  7/30 | train: 0.4047 | val: 0.4401 saved
+  Ep  8/30 | train: 0.3853 | val: 0.4488  (patience 1/5)
+  Ep  9/30 | train: 0.3727 | val: 0.4445  (patience 2/5)
+  Ep 10/30 | train: 0.3600 | val: 0.4498  (patience 3/5)
+  Ep 11/30 | train: 0.3271 | val: 0.4406  (patience 4/5)
+  Ep 12/30 | train: 0.3219 | val: 0.4396 saved
+  Ep 13/30 | train: 0.3176 | val: 0.4439  (patience 1/5)
+  Ep 14/30 | train: 0.3156 | val: 0.4432  (patience 2/5)
+  Ep 15/30 | train: 0.3135 | val: 0.4454  (patience 3/5)
+  Ep 16/30 | train: 0.3104 | val: 0.4469  (patience 4/5)
+  Ep 17/30 | train: 0.3088 | val: 0.4467  (patience 5/5)
+  Early stopping po epoce 17
+
+ mAP@50=0.8176  mAP@50-95=0.4837  Recall=0.6123
+
+================================================================
+  cosine-sgd  |  optim=sgd  lr=1e-04  sched=cosine  aug=True  bs=4
+================================================================
+  Ep  1/30 | train: 1.0192 | val: 0.8713 saved
+  Ep  2/30 | train: 0.8383 | val: 0.7628 saved
+  Ep  3/30 | train: 0.7381 | val: 0.6773 saved
+  Ep  4/30 | train: 0.6674 | val: 0.6247 saved
+  Ep  5/30 | train: 0.6214 | val: 0.5936 saved
+  Ep  6/30 | train: 0.5896 | val: 0.5765 saved
+  Ep  7/30 | train: 0.5686 | val: 0.5511 saved
+  Ep  8/30 | train: 0.5498 | val: 0.5381 saved
+  Ep  9/30 | train: 0.5390 | val: 0.5255 saved
+  Ep 10/30 | train: 0.5262 | val: 0.5204 saved
+  Ep 11/30 | train: 0.5196 | val: 0.5141 saved
+  Ep 12/30 | train: 0.5119 | val: 0.5142  (patience 1/5)
+  Ep 13/30 | train: 0.5063 | val: 0.5083 saved
+  Ep 14/30 | train: 0.5028 | val: 0.5007 saved
+  Ep 15/30 | train: 0.4946 | val: 0.4980 saved
+  Ep 16/30 | train: 0.4909 | val: 0.4985  (patience 1/5)
+  Ep 17/30 | train: 0.4889 | val: 0.4939 saved
+  Ep 18/30 | train: 0.4851 | val: 0.4885 saved
+  Ep 19/30 | train: 0.4815 | val: 0.4890  (patience 1/5)
+  Ep 20/30 | train: 0.4800 | val: 0.4895  (patience 2/5)
+  Ep 21/30 | train: 0.4787 | val: 0.4860 saved
+  Ep 22/30 | train: 0.4764 | val: 0.4861  (patience 1/5)
+  Ep 23/30 | train: 0.4747 | val: 0.4837 saved
+  Ep 24/30 | train: 0.4723 | val: 0.4831 saved
+  Ep 25/30 | train: 0.4738 | val: 0.4843  (patience 1/5)
+  Ep 26/30 | train: 0.4725 | val: 0.4825 saved
+  Ep 27/30 | train: 0.4723 | val: 0.4821 saved
+  Ep 28/30 | train: 0.4727 | val: 0.4824  (patience 1/5)
+  Ep 29/30 | train: 0.4701 | val: 0.4817 saved
+  Ep 30/30 | train: 0.4717 | val: 0.4818  (patience 1/5)
+
+ mAP@50=0.7668  mAP@50-95=0.4377  Recall=0.5906
+
+================================================================
+  cosine-adam  |  optim=adam  lr=1e-04  sched=cosine  aug=True  bs=4
+================================================================
+  Ep  1/30 | train: 0.6221 | val: 0.5447 saved
+  Ep  2/30 | train: 0.4994 | val: 0.4776 saved
+  Ep  3/30 | train: 0.4508 | val: 0.4681 saved
+  Ep  4/30 | train: 0.4200 | val: 0.4495 saved
+  Ep  5/30 | train: 0.3792 | val: 0.4478 saved
+  Ep  6/30 | train: 0.3607 | val: 0.4367 saved
+  Ep  7/30 | train: 0.3354 | val: 0.4472  (patience 1/5)
+  Ep  8/30 | train: 0.3136 | val: 0.4406  (patience 2/5)
+  Ep  9/30 | train: 0.2839 | val: 0.4740  (patience 3/5)
+  Ep 10/30 | train: 0.2652 | val: 0.4561  (patience 4/5)
+  Ep 11/30 | train: 0.2422 | val: 0.4819  (patience 5/5)
+  Early stopping po epoce 11
+
+ mAP@50=0.8027  mAP@50-95=0.4699  Recall=0.6083
+
+================================================================
+  no-aug-adam-cosine  |  optim=adam  lr=1e-04  sched=cosine  aug=False  bs=4
+================================================================
+  Ep  1/30 | train: 0.6163 | val: 0.4821 saved
+  Ep  2/30 | train: 0.4563 | val: 0.4837  (patience 1/5)
+  Ep  3/30 | train: 0.3940 | val: 0.4497 saved
+  Ep  4/30 | train: 0.3512 | val: 0.4722  (patience 1/5)
+  Ep  5/30 | train: 0.3050 | val: 0.4591  (patience 2/5)
+  Ep  6/30 | train: 0.2575 | val: 0.4673  (patience 3/5)
+  Ep  7/30 | train: 0.2206 | val: 0.4571  (patience 4/5)
+  Ep  8/30 | train: 0.1839 | val: 0.4547  (patience 5/5)
+  Early stopping po epoce 8
+
+ mAP@50=0.7845  mAP@50-95=0.4421  Recall=0.5851
