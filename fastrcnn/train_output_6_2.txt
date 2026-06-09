@@ -1,45 +1,44 @@
 ================================================================
   resnet34  |  optim=sgd  lr=1e-03  sched=step  aug=False  bs=4
 ================================================================
-  Ep  1/30 | train: 0.7718 | val: 0.5957 saved
-  Ep  2/30 | train: 0.5925 | val: 0.5804 saved
-  Ep  3/30 | train: 0.5580 | val: 0.5259 saved
-  Ep  4/30 | train: 0.5295 | val: 0.5402  (patience 1/5)
-  Ep  5/30 | train: 0.5082 | val: 0.5383  (patience 2/5)
-  Ep  6/30 | train: 0.4903 | val: 0.5207 saved
-  Ep  7/30 | train: 0.4681 | val: 0.5279  (patience 1/5)
-  Ep  8/30 | train: 0.4471 | val: 0.5257  (patience 2/5)
-  Ep  9/30 | train: 0.4263 | val: 0.5393  (patience 3/5)
-  Ep 10/30 | train: 0.4073 | val: 0.5288  (patience 4/5)
-  Ep 11/30 | train: 0.3528 | val: 0.5049 saved
-  Ep 12/30 | train: 0.3407 | val: 0.5068  (patience 1/5)
-  Ep 13/30 | train: 0.3353 | val: 0.5085  (patience 2/5)
-  Ep 14/30 | train: 0.3308 | val: 0.5107  (patience 3/5)
-  Ep 15/30 | train: 0.3264 | val: 0.5147  (patience 4/5)
-  Ep 16/30 | train: 0.3223 | val: 0.5176  (patience 5/5)
-  Early stopping po epoce 16
+/home/szarebski/Documents/Semestr_1_Magisterka/venv_ai_data/lib64/python3.11/site-packages/torchvision/models/_utils.py:135: UserWarning: Using 'backbone_name' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+  warnings.warn(
+  [resnet34] parametrów: 38,420,742
+  Ep  1/30 | train: 0.7513 | val: 0.6338 saved
+  Ep  2/30 | train: 0.5926 | val: 0.5973 saved
+  Ep  3/30 | train: 0.5557 | val: 0.5901 saved
+  Ep  4/30 | train: 0.5291 | val: 0.5392 saved
+  Ep  5/30 | train: 0.5081 | val: 0.5517  (patience 1/5)
+  Ep  6/30 | train: 0.4850 | val: 0.5596  (patience 2/5)
+  Ep  7/30 | train: 0.4657 | val: 0.5593  (patience 3/5)
+  Ep  8/30 | train: 0.4429 | val: 0.5595  (patience 4/5)
+  Ep  9/30 | train: 0.4257 | val: 0.5551  (patience 5/5)
+  Early stopping po epoce 9
 
- mAP@50=0.7870  mAP@50-95=0.4219  Recall=0.5390
+ mAP@50=0.7372  mAP@50-95=0.3490  Recall=0.4993
 
 ================================================================
   resnet18  |  optim=sgd  lr=1e-03  sched=step  aug=False  bs=4
 ================================================================
-  Ep  1/30 | train: 0.7802 | val: 0.6808 saved
-  Ep  2/30 | train: 0.6351 | val: 0.5965 saved
-  Ep  3/30 | train: 0.5910 | val: 0.6000  (patience 1/5)
-  Ep  4/30 | train: 0.5619 | val: 0.5671 saved
-  Ep  5/30 | train: 0.5345 | val: 0.5709  (patience 1/5)
-  Ep  6/30 | train: 0.5212 | val: 0.5433 saved
-  Ep  7/30 | train: 0.4958 | val: 0.5631  (patience 1/5)
-  Ep  8/30 | train: 0.4761 | val: 0.5531  (patience 2/5)
-  Ep  9/30 | train: 0.4585 | val: 0.5397 saved
-  Ep 10/30 | train: 0.4387 | val: 0.5695  (patience 1/5)
-  Ep 11/30 | train: 0.3838 | val: 0.5356 saved
-  Ep 12/30 | train: 0.3722 | val: 0.5369  (patience 1/5)
-  Ep 13/30 | train: 0.3650 | val: 0.5411  (patience 2/5)
-  Ep 14/30 | train: 0.3589 | val: 0.5411  (patience 3/5)
-  Ep 15/30 | train: 0.3551 | val: 0.5388  (patience 4/5)
-  Ep 16/30 | train: 0.3495 | val: 0.5432  (patience 5/5)
-  Early stopping po epoce 16
+  [resnet18] parametrów: 28,320,006
+  Ep  1/30 | train: 0.8082 | val: 0.6930 saved
+  Ep  2/30 | train: 0.6531 | val: 0.6157 saved
+  Ep  3/30 | train: 0.5947 | val: 0.5961 saved
+  Ep  4/30 | train: 0.5622 | val: 0.5942 saved
+  Ep  5/30 | train: 0.5435 | val: 0.5967  (patience 1/5)
+  Ep  6/30 | train: 0.5246 | val: 0.5756 saved
+  Ep  7/30 | train: 0.5043 | val: 0.6007  (patience 1/5)
+  Ep  8/30 | train: 0.4857 | val: 0.5743 saved
+  Ep  9/30 | train: 0.4682 | val: 0.5753  (patience 1/5)
+  Ep 10/30 | train: 0.4495 | val: 0.5727 saved
+  Ep 11/30 | train: 0.3936 | val: 0.5583 saved
+  Ep 12/30 | train: 0.3818 | val: 0.5609  (patience 1/5)
+  Ep 13/30 | train: 0.3749 | val: 0.5553 saved
+  Ep 14/30 | train: 0.3700 | val: 0.5557  (patience 1/5)
+  Ep 15/30 | train: 0.3654 | val: 0.5640  (patience 2/5)
+  Ep 16/30 | train: 0.3608 | val: 0.5644  (patience 3/5)
+  Ep 17/30 | train: 0.3570 | val: 0.5620  (patience 4/5)
+  Ep 18/30 | train: 0.3530 | val: 0.5697  (patience 5/5)
+  Early stopping po epoce 18
 
- mAP@50=0.7485  mAP@50-95=0.3844  Recall=0.5147
+ mAP@50=0.7352  mAP@50-95=0.3727  Recall=0.5104
