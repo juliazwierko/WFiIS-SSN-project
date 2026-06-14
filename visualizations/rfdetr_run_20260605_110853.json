@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-06-05T06:59:24.259797+00:00",
+  "finished_at": "2026-06-05T09:08:53.934499+00:00",
+  "model": "RFDETRNano",
+  "hyperparams": {
+    "epochs": 15,
+    "batch_size": 8,
+    "grad_accum_steps": 2,
+    "lr": 0.0001,
+    "effective_batch_size": 16
+  },
+  "dataset_dir": "data/rfdetr",
+  "output_dir": "models/rfdetr"
+}
